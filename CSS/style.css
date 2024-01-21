@@ -1,3 +1,32 @@
-ul { 
-    
+* {
+background-color: #f7e4cb ;
 };
+
+
+/* COLOURS 
+DUSKY PURPLE - #997c9b
+LILAC - #c7b6c8
+ROSE BUD - #eabfbd
+ROSE FOG - #f9dcd0
+GIVERY - #f7e4cb
+*/
+footer .card .card-header {
+    background-color: #997c9b;
+display: flex;
+flex-direction: row;
+}
+@media screen and (max-width: 580px) {
+    footer .card .card-header {
+        background-color: blue;
+    flex-direction: column;
+    }
+ }
+
+ .my-nav {
+display: flex;
+flex-direction: column;
+ }
+
+ .mynav {
+    background-color: #997c9b;
+ }

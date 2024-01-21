@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-<html lang="en-gb">
+<html lang="en-gb" class="bg-whole">
+  <!-- Start meta tags  -->
 <header>
 <!-- Meta tags  -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- bootstrap links -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<title> SK-Portfolio</title>
+<!-- CSS Link -->
+<link rel= "stylesheet" href="./CSS/style.css">
 </header>
-
 <!-- End Meta tags -->
 
 <body>
     <h1>SK - Portfolio</h1>
-
     <!-- Nav bar  -->
-    <ul class="nav nav-underline">
-        <li class="nav-item">
-          <a class="nav-link aboutMe" aria-current="page" href="#">About me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-work" href="#">Work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link CV" aria-disabled="true">CV</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg mynav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">sammy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 <!-- End Nav bar -->
 
 <!-- Hero Jumbotron Section -->
@@ -83,8 +93,20 @@
 <!-- End Work section -->
 
 <!-- footer section -->
-<footer>
-
+<<footer>
+  <div class="card text-center">
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div class="card-footer text-muted">
+      2 days ago
+    </div>
+  </div>
 </footer>
 <!-- End footer section -->
 
