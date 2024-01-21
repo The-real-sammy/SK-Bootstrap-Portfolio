@@ -29,6 +29,9 @@ nav {
 .card {
     background-color: #f9dcd0;
 }
+.image3 {
+    min-height: 300px;
+}
 
 .work-card {
 display: flex;
@@ -51,10 +54,11 @@ footer .card .card-header {
     }
 }
 
-.card-footer {
+.foot {
     background-color: #c7b6c8;
     border-top: 10px #997c9b;
 }
 .btn-outline-dark {
     background-color: #eabfbd;
 }
+
