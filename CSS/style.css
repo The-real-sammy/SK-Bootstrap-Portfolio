@@ -50,3 +50,12 @@ footer .card .card-header {
         flex-direction: column;
     }
 }
+
+.foot {
+    background-color: #c7b6c8;
+    border-top: 10px #997c9b;
+}
+.btn-outline-dark {
+    background-color: #eabfbd;
+}
+
