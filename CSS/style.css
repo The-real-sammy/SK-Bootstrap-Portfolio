@@ -15,15 +15,16 @@ GIVERY - #f7e4cb
 nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
 }
 
 .mynav {
     background-color: #997c9b;
 }
-.nav-position {
-    left: 50px;
+.container{
+display: flex;
+flex-direction: row-reverse;
 }
 
 .card {
@@ -38,7 +39,9 @@ justify-content:space-around;
 align-items: flex-start;
 }
 
-
+.j-background {
+    background-image: url("/Users/sameerahkhalid/bootcamp/week-3/challenge-3/SK-Bootstrap-Portfolio/images/Screenshot 2024-01-25 at 02.57.34.png") ;
+}
 footer .card .card-header {
     background-color:#997c9b;
     display: flex;
