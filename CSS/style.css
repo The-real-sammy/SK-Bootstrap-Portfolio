@@ -12,11 +12,19 @@ ROSE FOG - #f9dcd0
 GIVERY - #f7e4cb
 */
 
-nav {
+nav .container{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: flex-end;
+}
+.navbar-nav {
+    
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-end;
+    
 }
 
 .mynav {
@@ -28,6 +36,7 @@ nav {
 
 .card {
     background-color: #f9dcd0;
+    min-height: ;
 }
 
 .work-card {
