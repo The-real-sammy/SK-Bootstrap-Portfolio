@@ -4,30 +4,22 @@
 
 ;
 
-/* COLOURS 
+/* COLOrS 
 DUSKY PURPLE - #997c9b
 LILAC - #c7b6c8
 ROSE BUD - #eabfbd
 ROSE FOG - #f9dcd0
-GIVERY - #f7e4cb
+lIVERY - #f7e4cb
 */
 
-nav .container{
+nav {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
     align-items: flex-end;
 }
-.navbar-nav {
-    
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: flex-end;
-    
-}
 
-.mynav {
+.my-nav {
     background-color: #997c9b;
 }
 .nav-position {
@@ -36,8 +28,8 @@ align-items: flex-end;
 
 .card {
     background-color: #f9dcd0;
-    min-height: ;
 }
+
 
 .work-card {
 display: flex;
@@ -46,7 +38,9 @@ justify-content:space-around;
 align-items: flex-start;
 }
 
-
+.j-background {
+    background-image: url("/Users/sameerahkhalid/bootcamp/week-3/challenge-3/SK-Bootstrap-Portfolio/images/Screenshot 2024-01-25 at 02.57.34.png") ;
+}
 footer .card .card-header {
     background-color:#997c9b;
     display: flex;
@@ -65,7 +59,6 @@ footer .card .card-header {
     border-top: 10px #997c9b;
 }
 .btn-outline-dark {
-    /* background-color: #eabfbd; */
-    border-top: 10px #997c9b;
+    background-color: #eabfbd;
 }
 

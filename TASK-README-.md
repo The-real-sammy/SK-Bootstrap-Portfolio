@@ -76,7 +76,7 @@ In this assignment, you'll be building your portfolio layout using the Bootstrap
 
     - A skills section
 
-      - List out the skills you expect to learn from the bootcamp.
+      - List out the skills you expect to learn from the boot camp.
 
     - An about / contact section.
 
