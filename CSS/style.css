@@ -4,27 +4,26 @@
 
 ;
 
-/* COLOURS 
+/* COLOrS 
 DUSKY PURPLE - #997c9b
 LILAC - #c7b6c8
 ROSE BUD - #eabfbd
 ROSE FOG - #f9dcd0
-GIVERY - #f7e4cb
+lIVERY - #f7e4cb
 */
 
 nav {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
 }
 
-.mynav {
+.my-nav {
     background-color: #997c9b;
 }
-.container{
-display: flex;
-flex-direction: row-reverse;
+.nav-position {
+    left: 50px;
 }
 
 .card {
