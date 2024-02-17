@@ -65,6 +65,7 @@ footer .card .card-header {
     border-top: 10px #997c9b;
 }
 .btn-outline-dark {
-    background-color: #eabfbd;
+    /* background-color: #eabfbd; */
+    border-top: 10px #997c9b;
 }
 
