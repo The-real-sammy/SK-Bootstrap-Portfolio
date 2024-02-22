@@ -12,39 +12,98 @@ ROSE FOG - #f9dcd0
 lIVERY - #f7e4cb
 */
 
-nav {
+/* nav bar style */
+#nav {
+    background-color: #997c9b;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    height: 20px;
+}
+
+.navbar {
+    background-color: #997c9b;
+}
+
+#nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#nav-list li {
+    margin-right: 40px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+  }
+
+.nav-position {
+    left: -50px;
+}
+
+.btn {
+    flex-direction: ;
+}
+
+/* nav bar END */
+
+
+/* jumbotron styling  */
+.j-background {
+    background-image: url("../images/Screenshot\ 2024-01-25\ at\ 02.57.34.png");
+    height: 250px;
+    opacity: 90%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+h1 {
+    font-size: 40px;
+  font-weight: 400;
+    color: #eabfbd;
+}
+
+.lead {
+    color: #f9dcd0; 
+}
+
+p {
+    color:#f7e4cb; 
+}
+
+#home{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
-.my-nav {
-    background-color: #997c9b;
-}
-.nav-position {
-    left: 50px;
-}
+/* Jumbotron END */
+
 
 .card {
     background-color: #f9dcd0;
 }
 
-
+/* Cards Start */
 .work-card {
-display: flex;
-flex-direction: row;
-justify-content:space-around;
-align-items: flex-start;
-}
-
-.j-background {
-    background-image: url("/Users/sameerahkhalid/bootcamp/week-3/challenge-3/SK-Bootstrap-Portfolio/images/Screenshot 2024-01-25 at 02.57.34.png") ;
-}
-footer .card .card-header {
-    background-color:#997c9b;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 @media screen and (max-width: 580px) {
@@ -54,11 +113,24 @@ footer .card .card-header {
     }
 }
 
+/* .card-img-top {
+    height: 350px;
+    width: 400px; 
+    object-fit: cover; 
+} */
+
+/* Card End */
+
+/* Footer Start */
+footer .card .card-header {
+    background-color: #997c9b;
+    display: flex;
+    flex-direction: row;
+}
+
 .foot {
     background-color: #c7b6c8;
     border-top: 10px #997c9b;
 }
-.btn-outline-dark {
-    background-color: #eabfbd;
-}
 
+/* Footer END */
