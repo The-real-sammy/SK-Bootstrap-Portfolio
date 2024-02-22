@@ -1,6 +1,3 @@
-/* * {
-    background-color: #f7e4cb;
-} */
 
 ;
 
@@ -14,7 +11,6 @@ lIVERY - #f7e4cb
 
 /* nav bar style */
 #nav {
-    background-color: #997c9b;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -23,7 +19,7 @@ lIVERY - #f7e4cb
 }
 
 .navbar {
-    background-color: #997c9b;
+    background-color: #997c9bad;
 }
 
 #nav-list {
@@ -62,7 +58,7 @@ nav a:hover {
 /* jumbotron styling  */
 .j-background {
     background-image: url("../images/Screenshot\ 2024-01-25\ at\ 02.57.34.png");
-    height: 250px;
+    height: 450px;
     opacity: 90%;
     /* display: flex;
     flex-direction: column;
@@ -80,7 +76,7 @@ h1 {
     color: #f9dcd0; 
 }
 
-p {
+.para-a {
     color:#f7e4cb; 
 }
 
@@ -93,12 +89,21 @@ p {
 
 /* Jumbotron END */
 
+/* About me Start */
 
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+      color: #eabfbd;
+}
+
+/* About me End */
+
+/* Cards Start */
 .card {
     background-color: #f9dcd0;
 }
 
-/* Cards Start */
 .work-card {
     display: flex;
     flex-direction: row;
@@ -108,7 +113,7 @@ p {
 
 @media screen and (max-width: 580px) {
     footer .card .card-header {
-        background-color: blue;
+        background-color: rgb(136, 136, 211);
         flex-direction: column;
     }
 }
