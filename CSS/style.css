@@ -123,8 +123,8 @@ h2 {
 /* Cards Start */
 .card {
     background-color: #f9dcd0;
-    width: calc(50% - 20px);
-    min-height: 280px;
+    /* width: calc(50% - 20px);
+    min-height: 280px; */
     
 }
 
@@ -133,6 +133,7 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
+    flex-wrap: nowrap;
     
 }
 
@@ -145,6 +146,18 @@ h2 {
         background-color: rgb(136, 136, 211);
         flex-direction: column;
     }
+}
+
+
+.card-work {
+    height: 120px;
+    /* height: 350px;
+    width: 400px; 
+    object-fit: cover;  */
+}
+
+.work-style {
+padding-bottom: 20px;
 }
 
 /* .card-img-top {
