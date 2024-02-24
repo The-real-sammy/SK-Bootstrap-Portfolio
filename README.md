@@ -38,32 +38,34 @@ For suggestions on what to review first, open the Chrome DevTools by pressing Co
 
 ##### Image 01
 
+<img width="1279" alt="Screenshot 2024-02-24 at 15 04 25" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/a533dff3-8311-4617-bf43-bd7408c5e433">
 
 ##### Image 02
 
+<img width="1276" alt="Screenshot 2024-02-24 at 15 04 35" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/9f2834d5-289f-4d0e-9e27-c914a371fb59">
 
 ##### Image 03
 
+<img width="1251" alt="Screenshot 2024-02-24 at 15 04 43" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/82140aaf-db86-4a90-acad-0e8da8261899">
 
 ##### Image 04
 
+<img width="1256" alt="Screenshot 2024-02-24 at 15 04 52" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/362a7232-a8a5-4048-802e-e0902a8c75b6">
+
+##### Image 04
+
+<img width="1244" alt="Screenshot 2024-02-24 at 15 05 01" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/f82014f5-95a1-4e8e-adfe-7eb776a6fc31">
 
 ## Credits xxxxx replace  xxxxx
 
 Bootcamp spot 1-1 tuition:
 - Rene Trevino
 
-Tutorials: xxxxx replace  xxxxx
+Tutorials:
 
-[https://www.w3schools.com/html/html5_semantic_elements.asp#:~:text=What%20are%20Semantic%20Elements%3F,%3E%20%2D%20Clearly%20defines%20its%20content.](https://www.w3schools.com/html/html5_semantic_elements.asp)
+[https://www.w3schools.com/css/css3_flexbox_items.asp]
 
-[https://www.w3schools.com/html/html_accessibility.asp
-](https://www.w3schools.com/html/html_accessibility.asp)
-
-[https://www.a11yproject.com/posts/title-attributes/](https://www.a11yproject.com/posts/title-attributes/)
-
-[https://blog.hubspot.com/website/html-accessibility
-](https://blog.hubspot.com/website/html-accessibility)
+[https://www.w3schools.com/cssref/pr_background-image.php]
 
 ## License
 
