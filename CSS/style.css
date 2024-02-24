@@ -118,6 +118,13 @@ h2 {
     text-align: center;
 }
 
+.break-img {
+    background-image: url("../images/CATs.png");
+    background-position: center bottom;
+    height: 250px;
+    opacity: 90%;
+}
+
 /* About me End */
 
 /* Work cards Start */
@@ -154,7 +161,7 @@ h2 {
 
 
 .card-work {
-    height: 120px;
+    height: 100px;
     /* height: 350px;
     width: 400px; 
     object-fit: cover;  */
@@ -162,6 +169,10 @@ h2 {
 
 .work-style {
 /* padding: 12px 12px 12px 12px; */
+}
+.card-text{
+    color: #473948;
+    text-decoration: none;
 }
 
 /* .col-lg-4 {
@@ -189,5 +200,6 @@ footer .card .card-header {
 }
 .card-body{
 background-color: #f9dcd0;
+text-decoration: none;
 }
 /* Footer END */

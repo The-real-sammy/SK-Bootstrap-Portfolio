@@ -25,13 +25,13 @@
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about-me">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="#work-sec">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#card-sec">Contact</a>
             </li>
           </ul>
         </div>
@@ -45,13 +45,34 @@
   <hr class="my-4">
   <p class="para-a">Scroll down to see more!</p>
   <p class="lead">
-    <a class="btn btn-outline-dark btn-lg" href="#Contact Info" role="button">Contact Info</a>
+    <button type="click" id="searchButton" type="submit" id="searchButton" class ="btn btn-outline-dark"   data-bs-toggle="modal" data-bs-target="#exampleModal"> Contact Info
+   </button>
   </p>
 </div>
 
-
-
-
+<!-- Contact Info Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+     
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body"  >
+      <ul id="eventList">
+    Name:   Sameerah Khalid <br>
+    Email:  Sameerahk98@gmail.com <br>
+    Mobile: 07759295538 <br>
+    Github: <a href="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio" > the-real-sammy</a>
+      </ul>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- modal added to improve UI - Contact information pop-up! -->
 <!-- End Hero Jumbotron section -->
 
 <!-- Work section -->
@@ -59,29 +80,34 @@
   
   <h2> About me </h2>
   <p class="para-b">A versatile designer with a background in Architecture and graphic design. A creative problem solver who designs and delivers mixed-use schemes that are both functional and aesthetically pleasing. <br> A designer,  dedicated to adapting and increasing front-end dev skills;  continuously learning about new web design trends and developing front-end projects to show-case frontend dev skills. </p>
-  <h2> Work </h2>
+
+  <div class="break-img">
+  </div>
+
+  <h2 id="work-sec"> Work </h2>
 
   <div class="work-card work-style container">
     <div class="row">
     <!-- card 1 -->
     <div class="card card-style col-lg-4 col-md-4 col-sm-6 " style="width: 18rem;">
-      <img class="card-img" src="./Image/challenge-01.png" alt="Card image cap">
+      <img class="card-img" src="./images/challenge-01.png" alt="Card image cap"> 
       <div class="card-body card-work ">
-        <p class="card-text">HTML - Semantic rework to improve accessibility.</p>
+        <a href="https://the-real-sammy.github.io/semantic-rework/" class="card-text"> <p class="card-text">HTML - Semantic rework to improve accessibility.</p></a>
+       
       </div>
     </div>
     <!-- card 2  -->
     <div class="card card-style col-lg-4 col-md-4 col-sm-6 mb-3" style="width: 18rem;">
       <img class="card-img" src="./images/challenge 02 CSS.png" alt="CSS">
       <div class="card-body card-work">
-        <p class="card-text">CSS - Portfolio utilizing css styling.</p>
+        <a href="https://the-real-sammy.github.io/SK-Portfolio-CSS/" class="card-text"><p class="card-text">CSS - Portfolio utilizing css styling.</p></a>
       </div>
     </div>
     <!-- card 3  -->
     <div class="card card-style col-lg-4 col-md-4 col-sm-6 mb-3" style="width: 18rem;">
       <img class="card-img" src="./images/pre-work-02.png" alt="pre-work">
       <div class="card-body card-work">
-        <p class="card-text">Basic study guide for html/css basics</p>
+        <a href="https://the-real-sammy.github.io/Prework-study-guide/" class="card-text"> <p class="card-text">Basic study guide for html/css basics</p></a>
       </div>
     </div>
   </div>
@@ -89,23 +115,26 @@
   <div class="row">
     <!-- card 4  -->
     <div class="card card-style col-lg-4 col-md-4 col-sm-6 mb-3" style="width: 18rem;">
-      <img class="card-img" src="./Image/02-portfolio-2.jpg" alt="Card image cap">
+      <img class="card-img" src="./images/Password generator.png" alt="Card image cap">
       <div class="card-body card-work">
-        <p class="card-text"> Coming Soon! Javascript random number generator.</p>
+        <a href="https://the-real-sammy.github.io/JS-random-password-generator/" class="card-text">
+        <p class="card-text">Javascript random number generator.</p> </a>
       </div>
     </div>
        <!-- card 5  -->
        <div class="card card-style col-lg-4 col-md-4 col-sm-6 mb-3" style="width: 18rem;">
-        <img class="card-img" src="./Image/02-portfolio-2.jpg" alt="Card image cap">
+        <img class="card-img" src="./images/Console finances.png" alt="Card image cap"> 
       <div class="card-body card-work">
-        <p class="card-text"> Coming Soon! Javascript daily planner.</p>
+        <a href="https://the-real-sammy.github.io/js-console-finances/" class="card-text"><p class="card-text">Javascript console Logging.</p></a>
       </div>
     </div>
     <!-- card 6  -->
     <div class="card card-style col-lg-4 col-md-4 col-sm-6 mb-3" style="width: 18rem;">
-      <img class="card-img" src="./Image/02-portfolio-2.jpg" alt="Card image cap">
+      <img class="card-img" src="./images/Leaah Link.png" alt="Card image cap">
       <div class="card-body card-work">
-        <p class="card-text"> Coming soon! Javascript quiz</p>
+        <a href="https://jean-003.github.io/LeashLink/" class="card-text">
+        <p class="card-text"> Collaborative team project, working with third-part APIs</p>
+        </a>
       </div>
     </div>
     </div>
@@ -114,7 +143,7 @@
 <!-- End Work section -->
 
 <!-- footer section -->
-<footer>
+<footer id="card-sec">
   <div class="card text-center">
     <div class="card-header">
       Featured
