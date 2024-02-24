@@ -1,38 +1,38 @@
 # SK-Bootstrap-Portfolio
 Recreation of portfolio page via Bootstrap.
 
-## Description Tutorials: xxxxx replace  xxxxx
+## Description 
 
-This project looks at refactoring the HTML and CSS of an existing website. This is to both tidy up the code but to also review non-semantic elements; then reviewing how this can be altered to use the correct semantic elements to help the structure of a website without altering the existing content and style of website. 
+This web application is designed to showcase projects built and to act as a portfolio to assist in searching for future employment.
 
-The motivation to build this project is to help gain a better understanding of how to restructure code without affecting the exisiting output of a website and to use best practice when writing code. Having the correct semantic elements makes a website more accessible (eg: for screen readers etc.). This in turn increases and diversifies the users. 
+The motivation behind this project is to develop an understanding in how to adapt bootstrap (Or similar CSS frameworks) and how to override style changes, while creating a practical web-page that can be used in a working environment. 
 
-### Refactoring this code has allowed the following learning outcomes:Tutorials: xxxxx replace  xxxxx
+### Learning outcomes:
 
-- The difference between non-semantic and semantic elements and how this affects the structure and accessibility of a webpage.
-- The difference between class and id attributes and the different selectors for both within CSS.
-- How to use parent and child tags and where to appropriately place class and id attributes, within the wrapped element and sub-elements, to get a clean and efficient code without repetition.
+- Practice using Bootstrap framework.
+- Practice using bootstrap classes.
+- How to adapt bootstrap and create personalized styling and how to override the CSS.
 - How to arrange headings in a sequential order, with the most important headings to least important.
-- How the title within the meta data affects the seo of the webpage.
-- How to inactivate code using /* inactive */ within a html so you do not have to delete it while testing code and how to use the same method to create notes within the files.
-- The benefits of using alt tags, both for accessibility, and as a descriptive element when an image does not load.
+- How to adapt code for media queries and responsiveness.
 
 ## Installation
 
-N/A
+Clone this repository using:
+
+Copy SSH key:
+ git@github.com:The-real-sammy/SK-Bootstrap-Portfolio.git
 
 ## Usage
 
-### To use this website you can access it via the deployed web link: Tutorials: xxxxx replace  xxxxx
+### To use this website you can access it via the deployed web link: 
 
-[https://the-real-sammy.github.io/semantic-rework/   xxxxxx
-](https://the-real-sammy.github.io/semantic-rework/) xxxxxx
+[https://the-real-sammy.github.io/SK-Bootstrap-Portfolio/]
 
 For suggestions on what to review first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a breakdown of the html code with notations on how each section was improved for accessibility and the changes made in the CSS. 
 
-#### Alternatively review the files within the repo: Tutorials: xxxxx replace  xxxxx
+#### Alternatively review the files within the repo:
 
-[https://github.com/The-real-sammy/semantic-rework](https://github.com/The-real-sammy/semantic-rework)
+[https://github.com/The-real-sammy/SK-Bootstrap-Portfolio]
 
 #### Screenshots of deployed page:
 
