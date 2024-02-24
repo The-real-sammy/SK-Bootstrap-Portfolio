@@ -1,7 +1,7 @@
 # SK-Bootstrap-Portfolio
 Recreation of portfolio page via Bootstrap.
 
-## Description 
+## Description:
 
 This web application is designed to showcase projects built and to act as a portfolio to assist in searching for future employment.
 
@@ -15,7 +15,7 @@ The motivation behind this project is to develop an understanding in how to adap
 - How to arrange headings in a sequential order, with the most important headings to least important.
 - How to adapt code for media queries and responsiveness.
 
-## Installation
+## Installation:
 
 Clone this repository using:
 
@@ -56,12 +56,12 @@ For suggestions on what to review first, open the Chrome DevTools by pressing Co
 
 <img width="1244" alt="Screenshot 2024-02-24 at 15 05 01" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/f82014f5-95a1-4e8e-adfe-7eb776a6fc31">
 
-## Credits xxxxx replace  xxxxx
+## Credits:
 
 Bootcamp spot 1-1 tuition:
 - Rene Trevino
 
-Tutorials:
+##### Tutorials:
 
 [https://www.w3schools.com/css/css3_flexbox_items.asp]
 
