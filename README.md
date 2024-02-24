@@ -22,7 +22,7 @@ Clone this repository using:
 Copy SSH key:
  git@github.com:The-real-sammy/SK-Bootstrap-Portfolio.git
 
-## Usage
+## Usage:
 
 ### To use this website you can access it via the deployed web link: 
 
@@ -36,19 +36,19 @@ For suggestions on what to review first, open the Chrome DevTools by pressing Co
 
 #### Screenshots of deployed page:
 
-##### Image 01
+##### Image 01:
 
 <img width="1279" alt="Screenshot 2024-02-24 at 15 04 25" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/a533dff3-8311-4617-bf43-bd7408c5e433">
 
-##### Image 02
+##### Image 02:
 
 <img width="1276" alt="Screenshot 2024-02-24 at 15 04 35" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/9f2834d5-289f-4d0e-9e27-c914a371fb59">
 
-##### Image 03
+##### Image 03:
 
 <img width="1251" alt="Screenshot 2024-02-24 at 15 04 43" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/82140aaf-db86-4a90-acad-0e8da8261899">
 
-##### Image 04
+##### Image 04:
 
 <img width="1256" alt="Screenshot 2024-02-24 at 15 04 52" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/362a7232-a8a5-4048-802e-e0902a8c75b6">
 
