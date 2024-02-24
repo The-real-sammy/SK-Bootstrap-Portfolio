@@ -52,7 +52,7 @@ For suggestions on what to review first, open the Chrome DevTools by pressing Co
 
 <img width="1256" alt="Screenshot 2024-02-24 at 15 04 52" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/362a7232-a8a5-4048-802e-e0902a8c75b6">
 
-##### Image 04
+##### Image 05
 
 <img width="1244" alt="Screenshot 2024-02-24 at 15 05 01" src="https://github.com/The-real-sammy/SK-Bootstrap-Portfolio/assets/152024562/f82014f5-95a1-4e8e-adfe-7eb776a6fc31">
 
