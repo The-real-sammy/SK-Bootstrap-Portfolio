@@ -92,7 +92,7 @@ h1 {
 /* About me Start */
 
 #about-me { 
-    background-color: #997c9b16;  
+    background-color: #997c9b43;  
 }
 
 h2 {
@@ -120,25 +120,29 @@ h2 {
 
 /* About me End */
 
-/* Cards Start */
-.card {
+/* Work cards Start */
+.card-style {
     background-color: #f9dcd0;
+    margin-bottom: 1em;
+    margin-right: 10px;
     /* width: calc(50% - 20px);
     min-height: 280px; */
     
 }
 
-.work-card {
+.row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: nowrap;
-    
 }
 
 .card-img {
     min-height: 200px;
+    margin-top: 10px;
+    /* margin: 10px 10px 10px 10px;
+    justify-content: flex-start; */
 }
 
 @media screen and (max-width: 580px) {
@@ -157,8 +161,12 @@ h2 {
 }
 
 .work-style {
-padding-bottom: 20px;
+/* padding: 12px 12px 12px 12px; */
 }
+
+/* .col-lg-4 {
+    margin: 3px;
+} */
 
 /* .card-img-top {
     height: 350px;
@@ -179,5 +187,7 @@ footer .card .card-header {
     background-color: #c7b6c8;
     border-top: 10px #997c9b;
 }
-
+.card-body{
+background-color: #f9dcd0;
+}
 /* Footer END */
